@@ -35,7 +35,7 @@ resource "aws_sns_topic_subscription" "budget" {
 resource "aws_budgets_budget" "budget" {
   name              = "budget"
   budget_type       = "COST"
-  limit_amount      = "25"
+  limit_amount      = "25.0"
   limit_unit        = "USD"
   time_unit         = "MONTHLY"
   time_period_start = "2021-07-01_00:00"
