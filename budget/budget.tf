@@ -46,6 +46,6 @@ resource "aws_budgets_budget" "budget" {
     threshold                  = 100
     threshold_type             = "PERCENTAGE"
     subscriber_email_addresses = ["hello@chriswilding.co.uk"]
-    subscriber_sns_topic_arns  = ["${aws_sns_topic.budget.arn}"]
+    subscriber_sns_topic_arns  = [aws_sns_topic.budget.arn]
   }
 }
