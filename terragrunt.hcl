@@ -14,3 +14,12 @@ remote_state {
     if_exists = "overwrite_terragrunt"
   }
 }
+
+locals {
+  secrets = jsondecode(sops_decrypt_file(find_in_parent_folders("secrets/secrets.tfvars.json")))
+}
+
+inputs = merge(
+  local.secrets,
+  {}
+)
