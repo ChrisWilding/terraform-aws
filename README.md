@@ -1,6 +1,6 @@
 # Terraform AWS
 
-This repository contains [Terraform](https://www.terraform.io) Infrastructure as Code that I use to maintain shared or re-usable compents in my personal AWS.
+This repository contains [Terraform](https://www.terraform.io) Infrastructure as Code that I use to maintain shared or re-usable compents in my personal AWS account.
 
 ## Prerequisites
 
