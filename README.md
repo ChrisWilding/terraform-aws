@@ -1,5 +1,7 @@
 # Terraform AWS
 
+This repository contains [Terraform](https://www.terraform.io) Infrastructure as Code that I use to maintain shared or re-usable compents in my personal AWS.
+
 ## Prerequisites
 
 1. [terragrunt](https://terragrunt.gruntwork.io/docs/getting-started/install/)
